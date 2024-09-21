@@ -51,11 +51,12 @@
       "mark": {"type": "geoshape", "stroke": "white"},
       "encoding": {
         "color": {
-          "field": "Annual_International_Tourist_Arrivals", "type": "quantitative", "title": "Annual International Tourist Arrivals",
+          "field": "Annual_International_Tourist_Arrivals", "type": "quantitative",
+          "title": "Tourist per 10,000 Residents",
           "scale": {
             "type": "threshold",
             "domain": [100, 500, 1000, 5000, 10000],
-            "range": ["#fcc5c0", "#fbb4b9", "#f768a1", "#c51b8a", "#7a0177"]
+            "range": ["#fdd0a2", "#fdae6b", "#fd8d3c", "#e6550d", "#a63603"]
           }
         },
         "tooltip": [
